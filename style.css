@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/bg5.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: transparent;
+    backdrop-filter: blur(20px) ;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px #00000080;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: white;
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 12px 15px;
+    font-size: 18px;
+    width: 300px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus{
+    border-color: skyblue;
+    outline: none;
+}
+
+button{
+    padding: 12px 25px;
+    font-size: 18px;
+    border: 2px solid lightskyblue;
+    background-color: lightblue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: lightblue;
+}
+
+/* Area de resultados*/
+
+.resultado{
+    text-align: left;
+    font-size: 18px;
+    color: lightskyblue;
+}
+
+.resultado h2{
+    color: lightseagreen;
+    margin-bottom: 12px;
+}
+
+.resultado p{
+    margin: 6px 0px;
+}
+
+.erro{
+    color: red;
+    font-weight: bold;
+}
